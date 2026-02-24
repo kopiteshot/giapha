@@ -1,8 +1,8 @@
 import { createServerClient } from "@supabase/ssr";
 import { cookies } from "next/headers";
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY;
+const supabaseUrl = "https://xnkxgbvdtaxrmnkukosb.supabase.co";
+const supabaseKey = "sb_publishable_IZl60RLqYunfYHhRhb0lBA_7RgrWV1y";
 
 export const createClient = (
   cookieStore: Awaited<ReturnType<typeof cookies>>,
